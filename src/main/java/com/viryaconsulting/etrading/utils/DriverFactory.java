@@ -5,6 +5,7 @@ import com.viryaconsulting.etrading.pageobjects.Dashboard_Page;
 import com.viryaconsulting.etrading.pageobjects.Login_Page;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
 
@@ -34,8 +35,10 @@ public class DriverFactory {
                     if (null == driver) {
                         // setup
                         System.setProperty("webdriver.gecko.driver", Constant.GECKO_DRIVER_DIRECTORY);
-                        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-                        capabilities.setCapability("marionete", true);
+                        //DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+                        //capabilities.setCapability("marionete", true);
+                        driver = new FirefoxDriver();
+                        driver.manage().window().maximize();
                     }
 
                     break;
