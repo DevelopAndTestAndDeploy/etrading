@@ -2,6 +2,7 @@ package com.viryaconsulting.etrading.runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;
 
 
@@ -11,7 +12,7 @@ import org.junit.runner.RunWith;
     @CucumberOptions(features = {"src/test/java/com/viryaconsulting/etrading/resources/features"}, glue= {
             "com/viryaconsulting/etrading/steps" }, monochrome = true, tags = {},
             plugin = {"pretty", "html:target/htmlreports"})
-    public class MainRunner {
+    public class MainRunner extends AbstractTestNGCucumberTests {
 
 
     }

@@ -26,7 +26,6 @@ public class LoginSteps extends DriverFactory {
     @And("^The user enters a valid password$")
     public void the_user_enters_a_valid_password(DataTable dataTable) throws Throwable {
 
-        //Thread.sleep(3000);
         loginPage.enterPassword(dataTable,0, 0);
     }
 
@@ -34,35 +33,33 @@ public class LoginSteps extends DriverFactory {
     public void the_user_clicks_on_the_login_button() throws Throwable {
 
         loginPage.clickOnLoginButton();
-        //Thread.sleep(6000);
+        Thread.sleep(4000);
+
     }
 
-    @When("^The user should be on the dashboard page of the etrading app$")
-    public void the_user_should_be_on_the_dashboard_page_of_the_etrading_app() throws Throwable {
+    // Invalid login
+    @When("^The user enters an invaild username$")
+    public void the_user_enters_an_invaild_username() throws Throwable {
 
+    }
+
+    @And("^The user enters an invalid password$")
+    public void the_user_enters_an_invalid_password() throws Throwable {
+
+    }
+
+    @Then("^The user should not not be able to login and an invalid username or password error message should appear$")
+    public void the_user_should_not_not_be_able_to_login_and_an_invalid_username_or_password_error_message_should_appear() throws Throwable {
+
+    }
+
+    @Then("^The user should be on the dashboard page of the etrading app$")
+    public void the_user_should_be_on_the_dashboard_page_of_the_etrading_app() throws Throwable {
+        loginPage.getCurrentURL();
         System.out.println("The user is on the dashboard page");
 
     }
 
-    @And("^user clicks on new_order$")
-    public void user_clicks_on_new_order() throws Throwable {
 
-        dashboardPage.clickOnNewOrderButton();
-        dashboardPage.selectingNewOrderOptions();
-
-    }
-
-    @Then("^user should be presented with a pop-up window to enter trades$")
-    public void user_should_be_presented_with_a_pop_up_window_to_enter_trades() throws Throwable {
-        dashboardPage.selectTraderName();
-        dashboardPage.selectInstrument();
-        dashboardPage.enterQuantity();
-        dashboardPage.selectBuyOrSell();
-        dashboardPage.selectOrderType();
-        dashboardPage.clickSubmitToPlaceTheOrder();
-        Thread.sleep(3000);
-
-
-    }
 }
 

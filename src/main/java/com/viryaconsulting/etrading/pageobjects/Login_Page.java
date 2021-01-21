@@ -20,7 +20,7 @@ public class Login_Page extends BasePage{
     }
 
     public Login_Page getLoginPage() throws IOException {
-        getDriver().get("http://localhost:3000/login");
+        getDriver().get("https://localhost:3000/login");
         return new Login_Page();
     }
 
@@ -38,13 +38,8 @@ public class Login_Page extends BasePage{
 
     public Login_Page clickOnLoginButton() throws Exception {
         waitAndClickElement(button_Login);
+        //Thread.sleep(4000);
         return new Login_Page();
     }
 
-    public Dashboard_Page clickOnNewOrderButton() throws Exception {
-        dashboardPage.clickOnNewOrderButton();
-        return new Dashboard_Page();
     }
-
-
-}

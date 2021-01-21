@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6046539800,
+  "duration": 6018291900,
   "status": "passed"
 });
 formatter.scenario({
@@ -75,53 +75,55 @@ formatter.match({
   "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
 });
 formatter.result({
-  "duration": 4106044100,
+  "duration": 3940666800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_username(DataTable)"
 });
 formatter.result({
-  "duration": 176883200,
+  "duration": 170986800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_password(DataTable)"
 });
 formatter.result({
-  "duration": 208813900,
+  "duration": 195391700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 111860700,
+  "duration": 110447400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_should_be_on_the_dashboard_page_of_the_etrading_app()"
 });
 formatter.result({
-  "duration": 96400,
+  "duration": 71000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_clicks_on_new_order()"
 });
 formatter.result({
-  "duration": 1167943700,
+  "duration": 1223073100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_should_be_presented_with_a_pop_up_window_to_enter_trades()"
 });
 formatter.result({
-  "duration": 16738725600,
-  "status": "passed"
+  "duration": 32761649600,
+  "error_message": "java.lang.AssertionError: Unable to wait and click on the WebElement, using locator: \u003c[[ChromeDriver: chrome on XP (a21a84f6c47942d7d3c7e53c0a62ba67)] -\u003e xpath: //*[@id\u003d\"column-orderId\"]/span]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat com.viryaconsulting.etrading.pageobjects.BasePage.waitAndClickElement(BasePage.java:42)\r\n\tat com.viryaconsulting.etrading.pageobjects.Dashboard_Page.verifyNewOrder(Dashboard_Page.java:85)\r\n\tat com.viryaconsulting.etrading.steps.LoginSteps.user_should_be_presented_with_a_pop_up_window_to_enter_trades(LoginSteps.java:64)\r\n\tat ✽.Then user should be presented with a pop-up window to enter trades(Login.feature:12)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 723451100,
+  "duration": 731280700,
   "status": "passed"
 });
 });
