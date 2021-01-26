@@ -19,7 +19,7 @@ public class LoginSteps extends DriverFactory {
     @When("^The user enters a valid username$")
     public void the_user_enters_a_valid_username(DataTable dataTable) throws Throwable {
 
-        loginPage.enterUserName(dataTable,0,0);
+        loginPage.enterUserName(dataTable,0,1);
         //Thread.sleep(3000);
     }
 
@@ -50,6 +50,7 @@ public class LoginSteps extends DriverFactory {
 
     @Then("^The user should not not be able to login and an invalid username or password error message should appear$")
     public void the_user_should_not_not_be_able_to_login_and_an_invalid_username_or_password_error_message_should_appear() throws Throwable {
+        loginPage.verifyInvalidLogin();
 
     }
 

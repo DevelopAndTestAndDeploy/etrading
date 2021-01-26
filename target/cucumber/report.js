@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5766458600,
+  "duration": 5978162100,
   "status": "passed"
 });
 formatter.scenario({
@@ -47,43 +47,43 @@ formatter.match({
   "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
 });
 formatter.result({
-  "duration": 3818771700,
+  "duration": 4148300900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_an_invaild_username()"
 });
 formatter.result({
-  "duration": 55500,
+  "duration": 24000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_an_invalid_password()"
 });
 formatter.result({
-  "duration": 48100,
+  "duration": 16500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 4100540100,
+  "duration": 8126850700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_should_not_not_be_able_to_login_and_an_invalid_username_or_password_error_message_should_appear()"
 });
 formatter.result({
-  "duration": 43010100,
+  "duration": 48920500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 697011700,
+  "duration": 775086000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5032392400,
+  "duration": 5420022400,
   "status": "passed"
 });
 formatter.scenario({
@@ -147,39 +147,39 @@ formatter.match({
   "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
 });
 formatter.result({
-  "duration": 3694800500,
+  "duration": 4090668500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_username(DataTable)"
 });
 formatter.result({
-  "duration": 159341600,
+  "duration": 201322800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_password(DataTable)"
 });
 formatter.result({
-  "duration": 156376100,
+  "duration": 216760000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 4102167200,
+  "duration": 8147671600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_should_be_on_the_dashboard_page_of_the_etrading_app()"
 });
 formatter.result({
-  "duration": 7809200,
+  "duration": 7821200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 828304400,
+  "duration": 778864200,
   "status": "passed"
 });
 formatter.uri("PlaceOrders.feature");
@@ -417,7 +417,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5063826700,
+  "duration": 5319150500,
   "status": "passed"
 });
 formatter.scenario({
@@ -535,42 +535,42 @@ formatter.match({
   "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
 });
 formatter.result({
-  "duration": 3703289500,
+  "duration": 3977848500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_username(DataTable)"
 });
 formatter.result({
-  "duration": 154948600,
+  "duration": 196536000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_password(DataTable)"
 });
 formatter.result({
-  "duration": 159091200,
+  "duration": 208981800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 4094239300,
+  "duration": 8145564100,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_is_on_the_dashboard_page_of_the_etrading_website()"
 });
 formatter.result({
-  "duration": 147600,
+  "duration": 382300,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_newOrder_button()"
 });
 formatter.result({
-  "duration": 114979300,
+  "duration": 148068000,
   "status": "passed"
 });
 formatter.match({
@@ -583,7 +583,7 @@ formatter.match({
   "location": "PlaceOrderSteps.The_user_selects(String)"
 });
 formatter.result({
-  "duration": 245483700,
+  "duration": 356581400,
   "status": "passed"
 });
 formatter.match({
@@ -596,7 +596,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_traderId(String)"
 });
 formatter.result({
-  "duration": 3306978900,
+  "duration": 3499974200,
   "status": "passed"
 });
 formatter.match({
@@ -609,14 +609,14 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_instrument(String)"
 });
 formatter.result({
-  "duration": 223991101,
+  "duration": 295450000,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_enters_the_quantity()"
 });
 formatter.result({
-  "duration": 176153099,
+  "duration": 290266200,
   "status": "passed"
 });
 formatter.match({
@@ -629,7 +629,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_buy_or_sell(String)"
 });
 formatter.result({
-  "duration": 3731630000,
+  "duration": 3268770400,
   "status": "passed"
 });
 formatter.match({
@@ -642,29 +642,29 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_order_type(String)"
 });
 formatter.result({
-  "duration": 6215524700,
+  "duration": 6241992800,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 240180300,
+  "duration": 3492769900,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_order_should_be_verified_in_the_Orders_table_and_the_Trades_table_and_the_Positions_table()"
 });
 formatter.result({
-  "duration": 29441850201,
+  "duration": 30324226800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 706285199,
+  "duration": 768291200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5048769699,
+  "duration": 5298135900,
   "status": "passed"
 });
 formatter.scenario({
@@ -782,42 +782,42 @@ formatter.match({
   "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
 });
 formatter.result({
-  "duration": 3696033000,
+  "duration": 3863562800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_username(DataTable)"
 });
 formatter.result({
-  "duration": 145321600,
+  "duration": 325171800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_password(DataTable)"
 });
 formatter.result({
-  "duration": 152671401,
+  "duration": 273931300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 4093416599,
+  "duration": 8184736100,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_is_on_the_dashboard_page_of_the_etrading_website()"
 });
 formatter.result({
-  "duration": 81201,
+  "duration": 112400,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_newOrder_button()"
 });
 formatter.result({
-  "duration": 119479799,
+  "duration": 145813900,
   "status": "passed"
 });
 formatter.match({
@@ -830,7 +830,7 @@ formatter.match({
   "location": "PlaceOrderSteps.The_user_selects(String)"
 });
 formatter.result({
-  "duration": 246304200,
+  "duration": 336147400,
   "status": "passed"
 });
 formatter.match({
@@ -843,7 +843,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_traderId(String)"
 });
 formatter.result({
-  "duration": 3293270099,
+  "duration": 3419192500,
   "status": "passed"
 });
 formatter.match({
@@ -856,14 +856,14 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_instrument(String)"
 });
 formatter.result({
-  "duration": 206942400,
+  "duration": 287233100,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_enters_the_quantity()"
 });
 formatter.result({
-  "duration": 178025200,
+  "duration": 241068500,
   "status": "passed"
 });
 formatter.match({
@@ -876,7 +876,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_buy_or_sell(String)"
 });
 formatter.result({
-  "duration": 3738402401,
+  "duration": 3274554400,
   "status": "passed"
 });
 formatter.match({
@@ -889,29 +889,29 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_order_type(String)"
 });
 formatter.result({
-  "duration": 6231162500,
+  "duration": 6229664100,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 332762000,
+  "duration": 3510606100,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_order_should_be_verified_in_the_Orders_table_and_the_Trades_table_and_the_Positions_table()"
 });
 formatter.result({
-  "duration": 29693399300,
+  "duration": 30463122100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 696490200,
+  "duration": 786040900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5086840800,
+  "duration": 5276617200,
   "status": "passed"
 });
 formatter.scenario({
@@ -1029,42 +1029,42 @@ formatter.match({
   "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
 });
 formatter.result({
-  "duration": 3690268400,
+  "duration": 4067957200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_username(DataTable)"
 });
 formatter.result({
-  "duration": 142513100,
+  "duration": 233442100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_password(DataTable)"
 });
 formatter.result({
-  "duration": 152843500,
+  "duration": 272848800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 4099949800,
+  "duration": 8150472200,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_is_on_the_dashboard_page_of_the_etrading_website()"
 });
 formatter.result({
-  "duration": 101500,
+  "duration": 75000,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_newOrder_button()"
 });
 formatter.result({
-  "duration": 114936400,
+  "duration": 174119800,
   "status": "passed"
 });
 formatter.match({
@@ -1077,7 +1077,7 @@ formatter.match({
   "location": "PlaceOrderSteps.The_user_selects(String)"
 });
 formatter.result({
-  "duration": 241264200,
+  "duration": 359802600,
   "status": "passed"
 });
 formatter.match({
@@ -1090,7 +1090,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_traderId(String)"
 });
 formatter.result({
-  "duration": 3291399000,
+  "duration": 3405974100,
   "status": "passed"
 });
 formatter.match({
@@ -1103,14 +1103,14 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_instrument(String)"
 });
 formatter.result({
-  "duration": 222119901,
+  "duration": 281241200,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_enters_the_quantity()"
 });
 formatter.result({
-  "duration": 186544900,
+  "duration": 244766800,
   "status": "passed"
 });
 formatter.match({
@@ -1123,7 +1123,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_buy_or_sell(String)"
 });
 formatter.result({
-  "duration": 3219902000,
+  "duration": 3271228500,
   "status": "passed"
 });
 formatter.match({
@@ -1136,29 +1136,29 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_order_type(String)"
 });
 formatter.result({
-  "duration": 6199601501,
+  "duration": 6252386600,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 351957899,
+  "duration": 3498621800,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_order_should_be_verified_in_the_Orders_table_and_the_Trades_table_and_the_Positions_table()"
 });
 formatter.result({
-  "duration": 29586484600,
+  "duration": 30071878800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 695215901,
+  "duration": 792639700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5093778800,
+  "duration": 5317000500,
   "status": "passed"
 });
 formatter.scenario({
@@ -1276,42 +1276,42 @@ formatter.match({
   "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
 });
 formatter.result({
-  "duration": 3687147600,
+  "duration": 3892838000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_username(DataTable)"
 });
 formatter.result({
-  "duration": 140678400,
+  "duration": 272308700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_password(DataTable)"
 });
 formatter.result({
-  "duration": 155607400,
+  "duration": 267645300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 4080635800,
+  "duration": 8143278500,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_is_on_the_dashboard_page_of_the_etrading_website()"
 });
 formatter.result({
-  "duration": 132100,
+  "duration": 79500,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_newOrder_button()"
 });
 formatter.result({
-  "duration": 106564300,
+  "duration": 167134900,
   "status": "passed"
 });
 formatter.match({
@@ -1324,7 +1324,7 @@ formatter.match({
   "location": "PlaceOrderSteps.The_user_selects(String)"
 });
 formatter.result({
-  "duration": 225959099,
+  "duration": 326809700,
   "status": "passed"
 });
 formatter.match({
@@ -1337,7 +1337,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_traderId(String)"
 });
 formatter.result({
-  "duration": 3278883800,
+  "duration": 3459128600,
   "status": "passed"
 });
 formatter.match({
@@ -1350,14 +1350,14 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_instrument(String)"
 });
 formatter.result({
-  "duration": 723490500,
+  "duration": 241830900,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_enters_the_quantity()"
 });
 formatter.result({
-  "duration": 177083801,
+  "duration": 265928400,
   "status": "passed"
 });
 formatter.match({
@@ -1370,7 +1370,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_buy_or_sell(String)"
 });
 formatter.result({
-  "duration": 3744561300,
+  "duration": 3252872100,
   "status": "passed"
 });
 formatter.match({
@@ -1383,25 +1383,25 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_order_type(String)"
 });
 formatter.result({
-  "duration": 6209497699,
+  "duration": 6229084500,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 354687800,
+  "duration": 3525187900,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_order_should_be_verified_in_the_Orders_table_and_the_Trades_table_and_the_Positions_table()"
 });
 formatter.result({
-  "duration": 29598958200,
+  "duration": 30073877800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 690530899,
+  "duration": 797739700,
   "status": "passed"
 });
 });

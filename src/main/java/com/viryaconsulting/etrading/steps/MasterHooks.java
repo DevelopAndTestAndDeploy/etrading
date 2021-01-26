@@ -1,5 +1,6 @@
 package com.viryaconsulting.etrading.steps;
 
+import com.viryaconsulting.etrading.pageobjects.BasePage;
 import com.viryaconsulting.etrading.utils.DriverFactory;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -23,6 +24,7 @@ public class MasterHooks extends DriverFactory {
             if(driver!= null && scenario.isFailed()) {
                 scenario.embed(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES),
                         "image/png");
+                BasePage.captureScreenshot();
                 captureScreenshot();
                 driver.manage().deleteAllCookies();
                 driver.quit();
