@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5978162100,
+  "duration": 6686719200,
   "status": "passed"
 });
 formatter.scenario({
@@ -47,43 +47,43 @@ formatter.match({
   "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
 });
 formatter.result({
-  "duration": 4148300900,
+  "duration": 3914437700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_an_invaild_username()"
 });
 formatter.result({
-  "duration": 24000,
+  "duration": 160900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_an_invalid_password()"
 });
 formatter.result({
-  "duration": 16500,
+  "duration": 150800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 8126850700,
+  "duration": 8120659400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_should_not_not_be_able_to_login_and_an_invalid_username_or_password_error_message_should_appear()"
 });
 formatter.result({
-  "duration": 48920500,
+  "duration": 52688100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 775086000,
+  "duration": 715411100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5420022400,
+  "duration": 5172583700,
   "status": "passed"
 });
 formatter.scenario({
@@ -147,39 +147,39 @@ formatter.match({
   "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
 });
 formatter.result({
-  "duration": 4090668500,
+  "duration": 3834445000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_username(DataTable)"
 });
 formatter.result({
-  "duration": 201322800,
+  "duration": 180479400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_password(DataTable)"
 });
 formatter.result({
-  "duration": 216760000,
+  "duration": 209580400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 8147671600,
+  "duration": 8121037500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_should_be_on_the_dashboard_page_of_the_etrading_app()"
 });
 formatter.result({
-  "duration": 7821200,
+  "duration": 12273800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 778864200,
+  "duration": 710197900,
   "status": "passed"
 });
 formatter.uri("PlaceOrders.feature");
@@ -390,34 +390,12 @@ formatter.examples({
       ],
       "line": 45,
       "id": "login-to-the-etrading-app-and-place-orders;placing-new-orders;;3"
-    },
-    {
-      "cells": [
-        "Equity Swap",
-        "Paul Tudor Jones",
-        "TSLA",
-        "Buy",
-        "Market"
-      ],
-      "line": 46,
-      "id": "login-to-the-etrading-app-and-place-orders;placing-new-orders;;4"
-    },
-    {
-      "cells": [
-        "Stock",
-        "Ray Dalio",
-        "IBM",
-        "Sell",
-        "Limit"
-      ],
-      "line": 47,
-      "id": "login-to-the-etrading-app-and-place-orders;placing-new-orders;;5"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5319150500,
+  "duration": 5110819500,
   "status": "passed"
 });
 formatter.scenario({
@@ -535,42 +513,42 @@ formatter.match({
   "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
 });
 formatter.result({
-  "duration": 3977848500,
+  "duration": 3829583900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_username(DataTable)"
 });
 formatter.result({
-  "duration": 196536000,
+  "duration": 214673500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_password(DataTable)"
 });
 formatter.result({
-  "duration": 208981800,
+  "duration": 213051400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 8145564100,
+  "duration": 8111382000,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_is_on_the_dashboard_page_of_the_etrading_website()"
 });
 formatter.result({
-  "duration": 382300,
+  "duration": 310300,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_newOrder_button()"
 });
 formatter.result({
-  "duration": 148068000,
+  "duration": 148063100,
   "status": "passed"
 });
 formatter.match({
@@ -583,7 +561,7 @@ formatter.match({
   "location": "PlaceOrderSteps.The_user_selects(String)"
 });
 formatter.result({
-  "duration": 356581400,
+  "duration": 237632900,
   "status": "passed"
 });
 formatter.match({
@@ -596,7 +574,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_traderId(String)"
 });
 formatter.result({
-  "duration": 3499974200,
+  "duration": 3315566600,
   "status": "passed"
 });
 formatter.match({
@@ -609,14 +587,14 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_instrument(String)"
 });
 formatter.result({
-  "duration": 295450000,
+  "duration": 252146400,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_enters_the_quantity()"
 });
 formatter.result({
-  "duration": 290266200,
+  "duration": 220323300,
   "status": "passed"
 });
 formatter.match({
@@ -629,7 +607,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_buy_or_sell(String)"
 });
 formatter.result({
-  "duration": 3268770400,
+  "duration": 3252161200,
   "status": "passed"
 });
 formatter.match({
@@ -642,29 +620,29 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_order_type(String)"
 });
 formatter.result({
-  "duration": 6241992800,
+  "duration": 6266766400,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 3492769900,
+  "duration": 3291303900,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_order_should_be_verified_in_the_Orders_table_and_the_Trades_table_and_the_Positions_table()"
 });
 formatter.result({
-  "duration": 30324226800,
+  "duration": 29656376800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 768291200,
+  "duration": 718272500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5298135900,
+  "duration": 5160631900,
   "status": "passed"
 });
 formatter.scenario({
@@ -782,42 +760,42 @@ formatter.match({
   "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
 });
 formatter.result({
-  "duration": 3863562800,
+  "duration": 3792543100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_username(DataTable)"
 });
 formatter.result({
-  "duration": 325171800,
+  "duration": 192506200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_enters_a_valid_password(DataTable)"
 });
 formatter.result({
-  "duration": 273931300,
+  "duration": 217233600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 8184736100,
+  "duration": 8135020200,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_is_on_the_dashboard_page_of_the_etrading_website()"
 });
 formatter.result({
-  "duration": 112400,
+  "duration": 183600,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_newOrder_button()"
 });
 formatter.result({
-  "duration": 145813900,
+  "duration": 162298000,
   "status": "passed"
 });
 formatter.match({
@@ -830,7 +808,7 @@ formatter.match({
   "location": "PlaceOrderSteps.The_user_selects(String)"
 });
 formatter.result({
-  "duration": 336147400,
+  "duration": 238004600,
   "status": "passed"
 });
 formatter.match({
@@ -843,7 +821,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_traderId(String)"
 });
 formatter.result({
-  "duration": 3419192500,
+  "duration": 3317455100,
   "status": "passed"
 });
 formatter.match({
@@ -856,14 +834,14 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_the_instrument(String)"
 });
 formatter.result({
-  "duration": 287233100,
+  "duration": 292365400,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_enters_the_quantity()"
 });
 formatter.result({
-  "duration": 241068500,
+  "duration": 217562100,
   "status": "passed"
 });
 formatter.match({
@@ -876,7 +854,7 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_buy_or_sell(String)"
 });
 formatter.result({
-  "duration": 3274554400,
+  "duration": 3255390100,
   "status": "passed"
 });
 formatter.match({
@@ -889,519 +867,25 @@ formatter.match({
   "location": "PlaceOrderSteps.the_user_selects_order_type(String)"
 });
 formatter.result({
-  "duration": 6229664100,
+  "duration": 6251312500,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 3510606100,
+  "duration": 3113023700,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderSteps.the_order_should_be_verified_in_the_Orders_table_and_the_Trades_table_and_the_Positions_table()"
 });
 formatter.result({
-  "duration": 30463122100,
+  "duration": 29578919800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 786040900,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 5276617200,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 46,
-  "name": "Placing new orders",
-  "description": "",
-  "id": "login-to-the-etrading-app-and-place-orders;placing-new-orders;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 23,
-  "name": "As a user who is looking to buy shares, navigates to etrading app.",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 24,
-  "name": "The user enters a valid username",
-  "rows": [
-    {
-      "cells": [
-        "yohan",
-        "sarith"
-      ],
-      "line": 25
-    }
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 26,
-  "name": "The user enters a valid password",
-  "rows": [
-    {
-      "cells": [
-        "password",
-        "password"
-      ],
-      "line": 27
-    }
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 28,
-  "name": "The user clicks on the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 29,
-  "name": "The user is on the dashboard page of the etrading website",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 30,
-  "name": "The user clicks on the newOrder button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 31,
-  "name": "The user selects \"Equity Swap\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 32,
-  "name": "The user selects the \"Paul Tudor Jones\" traderId",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 33,
-  "name": "The user selects the \"TSLA\" instrument",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 34,
-  "name": "The user enters the quantity",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 35,
-  "name": "The user selects \"Buy\" buy or sell",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 36,
-  "name": "The user selects \"Market\" order type",
-  "matchedColumns": [
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 37,
-  "name": "The user clicks on the submit button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 38,
-  "name": "The order should be verified in the Orders table and the Trades table and the Positions table",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
-});
-formatter.result({
-  "duration": 4067957200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.the_user_enters_a_valid_username(DataTable)"
-});
-formatter.result({
-  "duration": 233442100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.the_user_enters_a_valid_password(DataTable)"
-});
-formatter.result({
-  "duration": 272848800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.the_user_clicks_on_the_login_button()"
-});
-formatter.result({
-  "duration": 8150472200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PlaceOrderSteps.the_user_is_on_the_dashboard_page_of_the_etrading_website()"
-});
-formatter.result({
-  "duration": 75000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PlaceOrderSteps.the_user_clicks_on_the_newOrder_button()"
-});
-formatter.result({
-  "duration": 174119800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Equity Swap",
-      "offset": 18
-    }
-  ],
-  "location": "PlaceOrderSteps.The_user_selects(String)"
-});
-formatter.result({
-  "duration": 359802600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Paul Tudor Jones",
-      "offset": 22
-    }
-  ],
-  "location": "PlaceOrderSteps.the_user_selects_the_traderId(String)"
-});
-formatter.result({
-  "duration": 3405974100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "TSLA",
-      "offset": 22
-    }
-  ],
-  "location": "PlaceOrderSteps.the_user_selects_the_instrument(String)"
-});
-formatter.result({
-  "duration": 281241200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PlaceOrderSteps.the_user_enters_the_quantity()"
-});
-formatter.result({
-  "duration": 244766800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Buy",
-      "offset": 18
-    }
-  ],
-  "location": "PlaceOrderSteps.the_user_selects_buy_or_sell(String)"
-});
-formatter.result({
-  "duration": 3271228500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Market",
-      "offset": 18
-    }
-  ],
-  "location": "PlaceOrderSteps.the_user_selects_order_type(String)"
-});
-formatter.result({
-  "duration": 6252386600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PlaceOrderSteps.the_user_clicks_on_the_submit_button()"
-});
-formatter.result({
-  "duration": 3498621800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PlaceOrderSteps.the_order_should_be_verified_in_the_Orders_table_and_the_Trades_table_and_the_Positions_table()"
-});
-formatter.result({
-  "duration": 30071878800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 792639700,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 5317000500,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 47,
-  "name": "Placing new orders",
-  "description": "",
-  "id": "login-to-the-etrading-app-and-place-orders;placing-new-orders;;5",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 23,
-  "name": "As a user who is looking to buy shares, navigates to etrading app.",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 24,
-  "name": "The user enters a valid username",
-  "rows": [
-    {
-      "cells": [
-        "yohan",
-        "sarith"
-      ],
-      "line": 25
-    }
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 26,
-  "name": "The user enters a valid password",
-  "rows": [
-    {
-      "cells": [
-        "password",
-        "password"
-      ],
-      "line": 27
-    }
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 28,
-  "name": "The user clicks on the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 29,
-  "name": "The user is on the dashboard page of the etrading website",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 30,
-  "name": "The user clicks on the newOrder button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 31,
-  "name": "The user selects \"Stock\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 32,
-  "name": "The user selects the \"Ray Dalio\" traderId",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 33,
-  "name": "The user selects the \"IBM\" instrument",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 34,
-  "name": "The user enters the quantity",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 35,
-  "name": "The user selects \"Sell\" buy or sell",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 36,
-  "name": "The user selects \"Limit\" order type",
-  "matchedColumns": [
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 37,
-  "name": "The user clicks on the submit button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 38,
-  "name": "The order should be verified in the Orders table and the Trades table and the Positions table",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app()"
-});
-formatter.result({
-  "duration": 3892838000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.the_user_enters_a_valid_username(DataTable)"
-});
-formatter.result({
-  "duration": 272308700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.the_user_enters_a_valid_password(DataTable)"
-});
-formatter.result({
-  "duration": 267645300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.the_user_clicks_on_the_login_button()"
-});
-formatter.result({
-  "duration": 8143278500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PlaceOrderSteps.the_user_is_on_the_dashboard_page_of_the_etrading_website()"
-});
-formatter.result({
-  "duration": 79500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PlaceOrderSteps.the_user_clicks_on_the_newOrder_button()"
-});
-formatter.result({
-  "duration": 167134900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Stock",
-      "offset": 18
-    }
-  ],
-  "location": "PlaceOrderSteps.The_user_selects(String)"
-});
-formatter.result({
-  "duration": 326809700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Ray Dalio",
-      "offset": 22
-    }
-  ],
-  "location": "PlaceOrderSteps.the_user_selects_the_traderId(String)"
-});
-formatter.result({
-  "duration": 3459128600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "IBM",
-      "offset": 22
-    }
-  ],
-  "location": "PlaceOrderSteps.the_user_selects_the_instrument(String)"
-});
-formatter.result({
-  "duration": 241830900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PlaceOrderSteps.the_user_enters_the_quantity()"
-});
-formatter.result({
-  "duration": 265928400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Sell",
-      "offset": 18
-    }
-  ],
-  "location": "PlaceOrderSteps.the_user_selects_buy_or_sell(String)"
-});
-formatter.result({
-  "duration": 3252872100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Limit",
-      "offset": 18
-    }
-  ],
-  "location": "PlaceOrderSteps.the_user_selects_order_type(String)"
-});
-formatter.result({
-  "duration": 6229084500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PlaceOrderSteps.the_user_clicks_on_the_submit_button()"
-});
-formatter.result({
-  "duration": 3525187900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PlaceOrderSteps.the_order_should_be_verified_in_the_Orders_table_and_the_Trades_table_and_the_Positions_table()"
-});
-formatter.result({
-  "duration": 30073877800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 797739700,
+  "duration": 705357400,
   "status": "passed"
 });
 });

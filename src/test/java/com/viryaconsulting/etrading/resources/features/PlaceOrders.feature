@@ -43,8 +43,8 @@ Feature:  Login to the etrading app and place orders
        |  StockOptions     |    TraderId      |  Instrument  |  BuyOrSell   |   OrderType   |
        |    Stock          | John Overdeck    |     IBM      |    Buy       |   Market      |
        |    Equity Options | Ken Griffin      |     MSFT     |    Sell      |   Limit       |
-       |    Equity Swap    | Paul Tudor Jones |     TSLA     |    Buy       |   Market      |
-       |    Stock          | Ray Dalio        |     IBM      |    Sell      |   Limit       |
+      # |    Equity Swap    | Paul Tudor Jones |     TSLA     |    Buy       |   Market      |
+       #|    Stock          | Ray Dalio        |     IBM      |    Sell      |   Limit       |
 
 
 

@@ -3,6 +3,8 @@ package com.viryaconsulting.etrading.utils;
 import com.viryaconsulting.etrading.pageobjects.BasePage;
 import com.viryaconsulting.etrading.pageobjects.Dashboard_Page;
 import com.viryaconsulting.etrading.pageobjects.Login_Page;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,6 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
 
+    protected Logger log = LogManager.getLogger(DriverFactory.class.getName());
     public static WebDriver driver;
     public static BasePage basePage;
     public static Login_Page loginPage;
@@ -61,7 +64,7 @@ public class DriverFactory {
             }
 
         } catch (Exception e) {
-            System.out.println("Unable to load browser: " + e.getMessage());
+            log.info("Unable to load browser: " + e.getMessage());
 
         } finally {
             driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);

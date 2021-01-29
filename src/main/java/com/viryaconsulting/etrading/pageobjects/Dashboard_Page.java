@@ -101,8 +101,11 @@ public class Dashboard_Page extends BasePage {
         super();
     }
 
+
+
     @Test
     public Dashboard_Page clickOnNewOrderButton() throws Exception {
+        log.info("");
         waitAndClickElement(button_NewOrder);
         return new Dashboard_Page();
     }

@@ -4,7 +4,7 @@
 
 
 <head>
-	<meta charset='UTF-8' /> 
+	<meta charset='utf-8' /> 
 	<meta name='description' content='' />
 	<meta name='robots' content='noodp, noydir' />
 	<meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -15,14 +15,9 @@
 
 		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	
-	<title>W2A Automation Reports</title>
+	<title>ExtentReports</title>
 
 	<style type='text/css'>
-			
-            
-                
-            
-        
 	</style>
 </head>
 
@@ -42,7 +37,7 @@
 		</ul>
 
 		<!-- report name -->
-		<span class='report-name'>Automation Report for</span>
+		<span class='report-name'>ExtentReports</span>
 		
 		<!-- report headline -->
 		<span class='report-headline'></span>
@@ -51,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jan 26, 2021 06:13:41 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Jan 29, 2021 06:13:49 PM</span>
 				</a>
 			</li>
 			<li>
@@ -142,7 +137,7 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>6</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>4</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -157,7 +152,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>66</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>38</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -177,12 +172,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Login functionality in the etrading app to buy or sell shares</span>
-						<span class='test-time'>Jan 26, 2021 06:13:41 PM</span>
+						<span class='test-time'>Jan 29, 2021 06:13:49 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 18s+360ms</span>
+	<span class='duration right label'>0h 0m 18s+816ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Negative Login Attempt to the etrading app</span>
@@ -231,7 +226,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='8' status='pass'>
-	<span class='duration right label'>0h 0m 18s+104ms</span>
+	<span class='duration right label'>0h 0m 17s+546ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Positive Login to buy or sell shares</span>
@@ -288,12 +283,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='14'>
 					<div class='test-heading'>
 						<span class='test-name'>Login to the etrading app and place orders</span>
-						<span class='test-time'>Jan 26, 2021 06:14:20 PM</span>
+						<span class='test-time'>Jan 29, 2021 06:14:27 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='15' status='pass'>
-	<span class='duration right label'>0h 4m 25s+53ms</span>
+	<span class='duration right label'>0h 2m 8s+819ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">Placing new orders</span>
@@ -433,140 +428,6 @@
 					</li>
 				</ul>
 		</li>
-		<li test-id='46' class='node scenario pass' status='pass'>
-			
-			<b>Scenario</b>
-			
-			<span class="bdd-step-name">Placing new orders</span>
-			
-				<ul class='steps'>
-					<li test-id='47' class='node given pass' status='pass'><b>Given</b>
-						<span class="bdd-step-name">Given As a user who is looking to buy shares, navigates to etrading app.</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='48' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When The user enters a valid username</span>
-							<div class='pre'><table><tr><td>yohan</td><td>sarith</td></tr></table></div>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='49' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user enters a valid password</span>
-							<div class='pre'><table><tr><td>password</td><td>password</td></tr></table></div>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='50' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user clicks on the login button</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='51' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When The user is on the dashboard page of the etrading website</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='52' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user clicks on the newOrder button</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='53' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user selects "Equity Swap"</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='54' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user selects the "Paul Tudor Jones" traderId</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='55' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user selects the "TSLA" instrument</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='56' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user enters the quantity</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='57' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user selects "Buy" buy or sell</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='58' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user selects "Market" order type</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='59' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When The user clicks on the submit button</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='60' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then The order should be verified in the Orders table and the Trades table and the Positions table</span>
-							<div class='pre'>passed</div>
-					</li>
-				</ul>
-		</li>
-		<li test-id='61' class='node scenario pass' status='pass'>
-			
-			<b>Scenario</b>
-			
-			<span class="bdd-step-name">Placing new orders</span>
-			
-				<ul class='steps'>
-					<li test-id='62' class='node given pass' status='pass'><b>Given</b>
-						<span class="bdd-step-name">Given As a user who is looking to buy shares, navigates to etrading app.</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='63' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When The user enters a valid username</span>
-							<div class='pre'><table><tr><td>yohan</td><td>sarith</td></tr></table></div>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='64' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user enters a valid password</span>
-							<div class='pre'><table><tr><td>password</td><td>password</td></tr></table></div>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='65' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user clicks on the login button</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='66' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When The user is on the dashboard page of the etrading website</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='67' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user clicks on the newOrder button</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='68' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user selects "Stock"</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='69' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user selects the "Ray Dalio" traderId</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='70' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user selects the "IBM" instrument</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='71' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user enters the quantity</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='72' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user selects "Sell" buy or sell</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='73' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And The user selects "Limit" order type</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='74' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When The user clicks on the submit button</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='75' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then The order should be verified in the Orders table and the Trades table and the Positions table</span>
-							<div class='pre'>passed</div>
-					</li>
-				</ul>
-		</li>
 	</ul>
 </div>
 					</div>
@@ -612,31 +473,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>6</div>
+					<div class='panel-lead'>4</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>66</div>
+					<div class='panel-lead'>38</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jan 26, 2021 06:13:41 PM</div>
+					<div class='panel-lead'>Jan 29, 2021 06:13:49 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jan 26, 2021 06:18:45 PM</div>
+			 		<div class='panel-lead'>Jan 29, 2021 06:16:37 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>304,305ms</div>
+					<div class='panel-lead'>167,502ms</div>
 				</div>
 			</div>
 		</div>
@@ -657,7 +518,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 6,
+				passChild: 4,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -666,7 +527,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 66,
+				passGrandChild: 38,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -681,13 +542,6 @@
 		
 		
  		<script type='text/javascript'>
- 			
-            
-                $(document).ready(function() {
-                    
-                });
-            
-        
  		</script>
 	</body>
 	

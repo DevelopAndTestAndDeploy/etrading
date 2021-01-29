@@ -1,0 +1,211 @@
+17:55:45.676 INFO  pageobjects.Login_Page -Navigating to login page
+17:55:49.599 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d281286ec4abf439104f4f7ad3d18dfa)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[4]/div/button]>
+17:55:57.669 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (d281286ec4abf439104f4f7ad3d18dfa)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[1]/div]>
+18:06:33.807 INFO  utils.DriverFactory -Getting the etrading login page
+18:06:33.810 INFO  pageobjects.Login_Page -Navigating to login page
+18:06:37.629 INFO  utils.DriverFactory -Invalid username
+18:06:37.630 INFO  utils.DriverFactory -Invalid password
+18:06:37.632 INFO  utils.DriverFactory -Clicking on the login button
+18:06:37.764 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (243ef3d33c38f0232870e35153fda8ce)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[4]/div/button]>
+18:06:45.788 INFO  utils.DriverFactory -Verifying the invalid login
+18:06:45.842 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (243ef3d33c38f0232870e35153fda8ce)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[1]/div]>
+18:06:51.992 INFO  utils.DriverFactory -Getting the etrading login page
+18:06:51.992 INFO  pageobjects.Login_Page -Navigating to login page
+18:06:55.785 INFO  utils.DriverFactory -Entering the username
+18:06:55.816 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (7728adbe4f36b419f2005dcee26f26c6)] -> id: username]>
+18:06:55.973 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (7728adbe4f36b419f2005dcee26f26c6)] -> id: username]>
+18:06:55.973 INFO  utils.DriverFactory -Entering the password
+18:06:56.010 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (7728adbe4f36b419f2005dcee26f26c6)] -> id: password]>
+18:06:56.186 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (7728adbe4f36b419f2005dcee26f26c6)] -> id: password]>
+18:06:56.187 INFO  utils.DriverFactory -Clicking on the login button
+18:06:56.305 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (7728adbe4f36b419f2005dcee26f26c6)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[4]/div/button]>
+18:07:04.330 INFO  pageobjects.Login_Page -Found(Got) the following URL: https://localhost:3000/dashboard
+18:07:04.331 INFO  utils.DriverFactory -The user is on the dashboard page
+18:08:56.119 INFO  utils.DriverFactory -Getting the etrading login page
+18:08:56.122 INFO  pageobjects.Login_Page -Navigating to login page
+18:09:00.011 INFO  utils.DriverFactory -Invalid username
+18:09:00.012 INFO  utils.DriverFactory -Invalid password
+18:09:00.013 INFO  utils.DriverFactory -Clicking on the login button
+18:09:00.114 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (ea3f8c571883d17708ca1bea6fe8d214)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[4]/div/button]>
+18:09:08.135 INFO  utils.DriverFactory -Verifying the invalid login
+18:09:08.178 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (ea3f8c571883d17708ca1bea6fe8d214)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[1]/div]>
+18:09:14.077 INFO  utils.DriverFactory -Getting the etrading login page
+18:09:14.077 INFO  pageobjects.Login_Page -Navigating to login page
+18:09:17.923 INFO  utils.DriverFactory -Entering the username
+18:09:17.965 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (583fc2df82e7c0de58b496e22661f596)] -> id: username]>
+18:09:18.118 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (583fc2df82e7c0de58b496e22661f596)] -> id: username]>
+18:09:18.119 INFO  utils.DriverFactory -Entering the password
+18:09:18.149 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (583fc2df82e7c0de58b496e22661f596)] -> id: password]>
+18:09:18.305 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (583fc2df82e7c0de58b496e22661f596)] -> id: password]>
+18:09:18.306 INFO  utils.DriverFactory -Clicking on the login button
+18:09:18.408 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (583fc2df82e7c0de58b496e22661f596)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[4]/div/button]>
+18:09:26.439 INFO  pageobjects.Login_Page -Found(Got) the following URL: https://localhost:3000/dashboard
+18:09:26.439 INFO  utils.DriverFactory -The user is on the dashboard page
+18:09:32.342 INFO  utils.DriverFactory -Getting the etrading login page
+18:09:32.342 INFO  pageobjects.Login_Page -Navigating to login page
+18:09:36.208 INFO  utils.DriverFactory -Entering the username
+18:09:36.238 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> id: username]>
+18:09:36.386 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> id: username]>
+18:09:36.387 INFO  utils.DriverFactory -Entering the password
+18:09:36.420 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> id: password]>
+18:09:36.595 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> id: password]>
+18:09:36.596 INFO  utils.DriverFactory -Clicking on the login button
+18:09:36.700 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[4]/div/button]>
+18:09:44.719 INFO  pageobjects.Login_Page -
+18:09:44.877 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="root"]/div/div/section[2]/div/button/span[1]]>
+18:09:45.111 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="simple-menu"]/div[3]/ul/li[1]'>
+18:09:45.248 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="traderId"]]>
+18:09:45.414 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[4]'>
+18:09:48.572 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="instrumentId"]]>
+18:09:48.699 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[1]'>
+18:09:48.731 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> id: quantity]>
+18:09:48.920 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> id: quantity]>
+18:09:49.030 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: /html/body/div[3]/div[3]/div/div[2]/form/div/div[4]/div/div/div]>
+18:09:49.168 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[1]'>
+18:09:52.314 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: /html/body/div[3]/div[3]/div/div[2]/form/div/div[5]/div/div/div]>
+18:09:55.455 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[1]'>
+18:09:58.729 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: /html/body/div[3]/div[3]/div/div[3]/button[2]/span[1]]>
+18:10:04.882 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="column-orderId"]]>
+18:10:04.977 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="column-orderId"]]>
+18:10:09.111 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[4]/div/div[2]/div/div/div[2]/div[1]/div[1]/input]>
+18:10:09.316 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[4]/div/div[2]/div/div/div[2]/div[1]/div[8]/button/span[1]]>
+18:10:09.346 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="price"]]>
+18:10:09.478 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '8976543' to element: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="price"]]>
+18:10:09.603 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: /html/body/div[3]/div[3]/div/div[3]/button[2]/span[1]]>
+18:10:13.722 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="column-tradeId"]]>
+18:10:13.816 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="column-tradeId"]]>
+18:10:16.934 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[3]/div/div[2]/div/div/div[2]/div[1]/div[1]/input]>
+18:10:20.056 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="column-trader"]]>
+18:10:23.164 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: //*[@id="column-instrumentCode"]]>
+18:10:26.364 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e66885a8432118ffeaeedf78744b2c73)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[1]/div/div[2]/div/div/div[2]/div[1]]>
+18:10:37.218 INFO  utils.DriverFactory -Getting the etrading login page
+18:10:37.218 INFO  pageobjects.Login_Page -Navigating to login page
+18:10:41.003 INFO  utils.DriverFactory -Entering the username
+18:10:41.033 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> id: username]>
+18:10:41.193 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> id: username]>
+18:10:41.195 INFO  utils.DriverFactory -Entering the password
+18:10:41.222 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> id: password]>
+18:10:41.399 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> id: password]>
+18:10:41.400 INFO  utils.DriverFactory -Clicking on the login button
+18:10:41.505 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[4]/div/button]>
+18:10:49.532 INFO  pageobjects.Login_Page -
+18:10:49.660 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="root"]/div/div/section[2]/div/button/span[1]]>
+18:10:49.878 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="simple-menu"]/div[3]/ul/li[2]'>
+18:10:50.019 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="traderId"]]>
+18:10:50.196 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[2]'>
+18:10:53.352 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="instrumentId"]]>
+18:10:53.496 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[2]'>
+18:10:53.527 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> id: quantity]>
+18:10:53.706 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> id: quantity]>
+18:10:53.827 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: /html/body/div[3]/div[3]/div/div[2]/form/div/div[4]/div/div/div]>
+18:10:53.953 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[2]'>
+18:10:57.070 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: /html/body/div[3]/div[3]/div/div[2]/form/div/div[5]/div/div/div]>
+18:11:00.209 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[2]'>
+18:11:03.476 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: /html/body/div[3]/div[3]/div/div[3]/button[2]/span[1]]>
+18:11:09.619 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="column-orderId"]]>
+18:11:09.738 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="column-orderId"]]>
+18:11:13.888 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[4]/div/div[2]/div/div/div[2]/div[1]/div[1]/input]>
+18:11:14.079 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[4]/div/div[2]/div/div/div[2]/div[1]/div[8]/button/span[1]]>
+18:11:14.109 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="price"]]>
+18:11:14.243 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '8976543' to element: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="price"]]>
+18:11:14.338 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: /html/body/div[3]/div[3]/div/div[3]/button[2]/span[1]]>
+18:11:18.451 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="column-tradeId"]]>
+18:11:18.530 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="column-tradeId"]]>
+18:11:21.643 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[3]/div/div[2]/div/div/div[2]/div[1]/div[1]/input]>
+18:11:24.747 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="column-trader"]]>
+18:11:27.864 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: //*[@id="column-instrumentCode"]]>
+18:11:31.076 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (c1c8e6a2e385fbeaa0e86a879fe70d6d)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[1]/div/div[2]/div/div/div[2]/div[1]]>
+18:13:56.575 INFO  utils.DriverFactory -Getting the etrading login page
+18:13:56.578 INFO  pageobjects.Login_Page -Navigating to login page
+18:14:00.419 INFO  utils.DriverFactory -Invalid username
+18:14:00.420 INFO  utils.DriverFactory -Invalid password
+18:14:00.422 INFO  utils.DriverFactory -Clicking on the login button
+18:14:00.528 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (30910bc3b4519d82b4c6b6b40560a2a6)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[4]/div/button]>
+18:14:08.549 INFO  utils.DriverFactory -Verifying the invalid login
+18:14:08.591 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (30910bc3b4519d82b4c6b6b40560a2a6)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[1]/div]>
+18:14:14.498 INFO  utils.DriverFactory -Getting the etrading login page
+18:14:14.498 INFO  pageobjects.Login_Page -Navigating to login page
+18:14:18.336 INFO  utils.DriverFactory -Entering the username
+18:14:18.366 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (0ef31594bac3e1d3ce5d7e0894906f2c)] -> id: username]>
+18:14:18.516 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (0ef31594bac3e1d3ce5d7e0894906f2c)] -> id: username]>
+18:14:18.518 INFO  utils.DriverFactory -Entering the password
+18:14:18.552 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (0ef31594bac3e1d3ce5d7e0894906f2c)] -> id: password]>
+18:14:18.726 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (0ef31594bac3e1d3ce5d7e0894906f2c)] -> id: password]>
+18:14:18.729 INFO  utils.DriverFactory -Clicking on the login button
+18:14:18.840 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0ef31594bac3e1d3ce5d7e0894906f2c)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[4]/div/button]>
+18:14:26.864 INFO  pageobjects.Login_Page -Found(Got) the following URL: https://localhost:3000/dashboard
+18:14:26.864 INFO  utils.DriverFactory -The user is on the dashboard page
+18:14:32.697 INFO  utils.DriverFactory -Getting the etrading login page
+18:14:32.697 INFO  pageobjects.Login_Page -Navigating to login page
+18:14:36.531 INFO  utils.DriverFactory -Entering the username
+18:14:36.587 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> id: username]>
+18:14:36.746 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> id: username]>
+18:14:36.748 INFO  utils.DriverFactory -Entering the password
+18:14:36.788 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> id: password]>
+18:14:36.960 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> id: password]>
+18:14:36.962 INFO  utils.DriverFactory -Clicking on the login button
+18:14:37.063 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[4]/div/button]>
+18:14:45.076 INFO  pageobjects.Login_Page -
+18:14:45.224 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="root"]/div/div/section[2]/div/button/span[1]]>
+18:14:45.462 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="simple-menu"]/div[3]/ul/li[1]'>
+18:14:45.597 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="traderId"]]>
+18:14:45.764 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[4]'>
+18:14:48.906 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="instrumentId"]]>
+18:14:49.032 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[1]'>
+18:14:49.064 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> id: quantity]>
+18:14:49.254 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> id: quantity]>
+18:14:49.368 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: /html/body/div[3]/div[3]/div/div[2]/form/div/div[4]/div/div/div]>
+18:14:49.501 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[1]'>
+18:14:52.634 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: /html/body/div[3]/div[3]/div/div[2]/form/div/div[5]/div/div/div]>
+18:14:55.763 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[1]'>
+18:14:59.058 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: /html/body/div[3]/div[3]/div/div[3]/button[2]/span[1]]>
+18:15:05.205 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="column-orderId"]]>
+18:15:05.303 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="column-orderId"]]>
+18:15:09.439 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[4]/div/div[2]/div/div/div[2]/div[1]/div[1]/input]>
+18:15:09.635 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[4]/div/div[2]/div/div/div[2]/div[1]/div[8]/button/span[1]]>
+18:15:09.674 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="price"]]>
+18:15:09.811 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '8976543' to element: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="price"]]>
+18:15:09.956 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: /html/body/div[3]/div[3]/div/div[3]/button[2]/span[1]]>
+18:15:14.070 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="column-tradeId"]]>
+18:15:14.152 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="column-tradeId"]]>
+18:15:17.266 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[3]/div/div[2]/div/div/div[2]/div[1]/div[1]/input]>
+18:15:20.380 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="column-trader"]]>
+18:15:23.504 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: //*[@id="column-instrumentCode"]]>
+18:15:26.714 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (790cd08d31fe3110c27e57bcc4efa5ad)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[1]/div/div[2]/div/div/div[2]/div[1]]>
+18:15:37.615 INFO  utils.DriverFactory -Getting the etrading login page
+18:15:37.615 INFO  pageobjects.Login_Page -Navigating to login page
+18:15:41.408 INFO  utils.DriverFactory -Entering the username
+18:15:41.447 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> id: username]>
+18:15:41.601 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> id: username]>
+18:15:41.602 INFO  utils.DriverFactory -Entering the password
+18:15:41.632 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> id: password]>
+18:15:41.819 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> id: password]>
+18:15:41.821 INFO  utils.DriverFactory -Clicking on the login button
+18:15:41.931 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="root"]/div/div/div/div/div/div/div[4]/div/button]>
+18:15:49.958 INFO  pageobjects.Login_Page -
+18:15:50.120 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="root"]/div/div/section[2]/div/button/span[1]]>
+18:15:50.359 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="simple-menu"]/div[3]/ul/li[2]'>
+18:15:50.502 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="traderId"]]>
+18:15:50.678 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[2]'>
+18:15:53.827 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="instrumentId"]]>
+18:15:53.972 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[2]'>
+18:15:54.005 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> id: quantity]>
+18:15:54.191 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> id: quantity]>
+18:15:54.302 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: /html/body/div[3]/div[3]/div/div[2]/form/div/div[4]/div/div/div]>
+18:15:54.445 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[2]'>
+18:15:57.566 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: /html/body/div[3]/div[3]/div/div[2]/form/div/div[5]/div/div/div]>
+18:16:00.699 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="menu-"]/div[3]/ul/li[2]'>
+18:16:03.806 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: /html/body/div[3]/div[3]/div/div[3]/button[2]/span[1]]>
+18:16:09.951 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="column-orderId"]]>
+18:16:10.050 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="column-orderId"]]>
+18:16:14.186 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[4]/div/div[2]/div/div/div[2]/div[1]/div[1]/input]>
+18:16:14.399 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[4]/div/div[2]/div/div/div[2]/div[1]/div[8]/button/span[1]]>
+18:16:14.433 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="price"]]>
+18:16:14.572 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '8976543' to element: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="price"]]>
+18:16:14.670 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: /html/body/div[3]/div[3]/div/div[3]/button[2]/span[1]]>
+18:16:18.781 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="column-tradeId"]]>
+18:16:18.859 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="column-tradeId"]]>
+18:16:21.962 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[3]/div/div[2]/div/div/div[2]/div[1]/div[1]/input]>
+18:16:25.076 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="column-trader"]]>
+18:16:28.178 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: //*[@id="column-instrumentCode"]]>
+18:16:31.386 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (3835a318f81502bb68177882d06b6ce4)] -> xpath: /html/body/div[1]/div/div/section[3]/div/div/div[1]/div/div[2]/div/div/div[2]/div[1]]>

@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 import java.util.List;
 
@@ -24,7 +23,11 @@ public class Login_Page extends BasePage{
 
     @Test
     public Login_Page getLoginPage() throws IOException {
+
+        log.info("Navigating to login page");
+
         getDriver().get("https://localhost:3000/login");
+       // getDriver().get("https://etrading.fernando.org.uk/login");
         return new Login_Page();
     }
     @Test
