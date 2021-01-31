@@ -13,7 +13,6 @@ public class LoginSteps extends DriverFactory {
     public void as_a_user_who_is_looking_to_buy_shares_navigates_to_etrading_app() throws Throwable {
         log.info("Getting the etrading login page");
         loginPage.getLoginPage();
-        Thread.sleep(3000);
 
     }
 
@@ -22,7 +21,6 @@ public class LoginSteps extends DriverFactory {
 
         log.info("Entering the username");
         loginPage.enterUserName(dataTable,0,1);
-        //Thread.sleep(3000);
     }
 
     @And("^The user enters a valid password$")
@@ -37,7 +35,6 @@ public class LoginSteps extends DriverFactory {
 
         log.info("Clicking on the login button");
         loginPage.clickOnLoginButton();
-        Thread.sleep(4000);
 
     }
 

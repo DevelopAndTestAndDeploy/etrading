@@ -14,7 +14,7 @@ public class Login_Page extends BasePage{
     public @FindBy(id = "username")
     WebElement textfield_userName;
     public @FindBy(id = "password") WebElement textfield_password;
-    public @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/div/div/div/div[4]/div/button") WebElement button_Login;
+    public @FindBy(xpath = "//div[@id='root']//button") WebElement button_Login;
 
     public Login_Page() throws IOException {
 
@@ -25,9 +25,8 @@ public class Login_Page extends BasePage{
     public Login_Page getLoginPage() throws IOException {
 
         log.info("Navigating to login page");
-
-        getDriver().get("https://localhost:3000/login");
-       // getDriver().get("https://etrading.fernando.org.uk/login");
+       //getDriver().get("https://localhost:3000/login");
+       getDriver().get("https://etrading.fernando.org.uk/login");
         return new Login_Page();
     }
     @Test
@@ -46,7 +45,6 @@ public class Login_Page extends BasePage{
     @Test
     public Login_Page clickOnLoginButton() throws Exception {
         waitAndClickElement(button_Login);
-        Thread.sleep(4000);
         return new Login_Page();
     }
 

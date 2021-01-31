@@ -1,0 +1,614 @@
+11:37:30.923 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //*[@id='traderId']]>
+11:37:31.553 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //li[normalize-space()='Ken Griffin']]>
+11:37:34.650 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //*[@id='instrumentId']]>
+11:37:34.732 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //li[normalize-space()='MSFT']]>
+11:37:34.759 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> id: quantity]>
+11:37:34.849 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> id: quantity]>
+11:37:37.953 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:37:38.050 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //li[normalize-space()='Sell']]>
+11:37:41.161 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:37:44.254 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //li[normalize-space()='Limit']]>
+11:37:47.345 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //button[2]]>
+11:37:53.462 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //*[@id='column-orderId']]>
+11:37:53.559 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //*[@id='column-orderId']]>
+11:37:57.671 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (543edd2577e259744e81506c826dc078)] -> xpath: //div[4]//div[1]//div[2]//div[1]//div[1]//div[2]//div[1]//div[1]//input[1]]>
+11:40:46.520 INFO  utils.DriverFactory -Getting the etrading login page
+11:40:46.523 INFO  pageobjects.Login_Page -Navigating to login page
+11:40:48.683 INFO  utils.DriverFactory -Entering the username
+11:40:48.715 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> id: username]>
+11:40:48.795 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> id: username]>
+11:40:48.796 INFO  utils.DriverFactory -Entering the password
+11:40:48.824 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> id: password]>
+11:40:48.919 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> id: password]>
+11:40:48.920 INFO  utils.DriverFactory -Clicking on the login button
+11:40:49.033 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> xpath: //div[@id='root']//button]>
+11:40:49.035 INFO  pageobjects.Login_Page -
+11:40:49.645 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> xpath: //span[normalize-space()='New Order']]>
+11:40:49.812 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> xpath: //li[normalize-space()='Stock']]>
+11:40:49.917 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> xpath: //*[@id='traderId']]>
+11:40:50.532 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:40:50.609 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <div class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input" tabindex="0" role="button" aria-haspopup="listbox" aria-labelledby="InstrumentLabel instrumentId" id="instrumentId">...</div> is not clickable at point (751, 336). Other element would receive the click: <div role="presentation" class="MuiPopover-root" id="menu-" style="position: fixed; z-index: 1300; inset: 0px;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: af79f5c2eb9041ecf78db4358c7d4e64
+11:40:51.299 INFO  utils.DriverFactory -Getting the etrading login page
+11:40:51.299 INFO  pageobjects.Login_Page -Navigating to login page
+11:40:51.392 INFO  utils.DriverFactory -Entering the username
+11:40:51.419 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> id: username]>
+11:40:51.502 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> id: username]>
+11:40:51.503 INFO  utils.DriverFactory -Entering the password
+11:40:51.526 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> id: password]>
+11:40:51.617 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> id: password]>
+11:40:51.617 INFO  utils.DriverFactory -Clicking on the login button
+11:40:51.712 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> xpath: //div[@id='root']//button]>
+11:40:51.713 INFO  pageobjects.Login_Page -
+11:40:52.322 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> xpath: //span[normalize-space()='New Order']]>
+11:40:52.490 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> xpath: //li[normalize-space()='Equity Option']]>
+11:40:52.597 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> xpath: //*[@id='traderId']]>
+11:40:53.214 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (af79f5c2eb9041ecf78db4358c7d4e64)] -> xpath: //li[normalize-space()='Ken Griffin']]>
+11:40:53.286 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <div class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input" tabindex="0" role="button" aria-haspopup="listbox" aria-labelledby="InstrumentLabel instrumentId" id="instrumentId">...</div> is not clickable at point (751, 336). Other element would receive the click: <div role="presentation" class="MuiPopover-root" id="menu-" style="position: fixed; z-index: 1300; inset: 0px;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: af79f5c2eb9041ecf78db4358c7d4e64
+11:41:31.725 INFO  utils.DriverFactory -Getting the etrading login page
+11:41:31.728 INFO  pageobjects.Login_Page -Navigating to login page
+11:41:32.433 INFO  utils.DriverFactory -Entering the username
+11:41:32.463 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> id: username]>
+11:41:32.584 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> id: username]>
+11:41:32.585 INFO  utils.DriverFactory -Entering the password
+11:41:32.614 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> id: password]>
+11:41:32.760 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> id: password]>
+11:41:32.760 INFO  utils.DriverFactory -Clicking on the login button
+11:41:32.878 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> xpath: //div[@id='root']//button]>
+11:41:32.879 INFO  pageobjects.Login_Page -
+11:41:33.575 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> xpath: //span[normalize-space()='New Order']]>
+11:41:33.777 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> xpath: //li[normalize-space()='Stock']]>
+11:41:33.894 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> xpath: //*[@id='traderId']]>
+11:41:34.034 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:41:34.113 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <div class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input" tabindex="0" role="button" aria-haspopup="listbox" aria-labelledby="InstrumentLabel instrumentId" id="instrumentId">...</div> is not clickable at point (751, 336). Other element would receive the click: <div role="presentation" class="MuiPopover-root" id="menu-" style="position: fixed; z-index: 1300; inset: 0px;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: 1daef39fb67929be27fdf859f5c5157e
+11:41:34.891 INFO  utils.DriverFactory -Getting the etrading login page
+11:41:34.891 INFO  pageobjects.Login_Page -Navigating to login page
+11:41:35.069 INFO  utils.DriverFactory -Entering the username
+11:41:35.093 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> id: username]>
+11:41:35.204 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> id: username]>
+11:41:35.205 INFO  utils.DriverFactory -Entering the password
+11:41:35.225 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> id: password]>
+11:41:35.353 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> id: password]>
+11:41:35.354 INFO  utils.DriverFactory -Clicking on the login button
+11:41:35.451 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> xpath: //div[@id='root']//button]>
+11:41:35.452 INFO  pageobjects.Login_Page -
+11:41:36.074 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> xpath: //span[normalize-space()='New Order']]>
+11:41:36.275 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> xpath: //li[normalize-space()='Equity Option']]>
+11:41:36.401 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> xpath: //*[@id='traderId']]>
+11:41:36.525 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (1daef39fb67929be27fdf859f5c5157e)] -> xpath: //li[normalize-space()='Ken Griffin']]>
+11:41:36.596 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <div class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input" tabindex="0" role="button" aria-haspopup="listbox" aria-labelledby="InstrumentLabel instrumentId" id="instrumentId">...</div> is not clickable at point (751, 336). Other element would receive the click: <div role="presentation" class="MuiPopover-root" id="menu-" style="position: fixed; z-index: 1300; inset: 0px;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: 1daef39fb67929be27fdf859f5c5157e
+11:42:21.290 INFO  utils.DriverFactory -Getting the etrading login page
+11:42:21.292 INFO  pageobjects.Login_Page -Navigating to login page
+11:42:21.998 INFO  utils.DriverFactory -Entering the username
+11:42:22.029 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> id: username]>
+11:42:22.148 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> id: username]>
+11:42:22.149 INFO  utils.DriverFactory -Entering the password
+11:42:22.177 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> id: password]>
+11:42:22.322 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> id: password]>
+11:42:22.322 INFO  utils.DriverFactory -Clicking on the login button
+11:42:22.430 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> xpath: //div[@id='root']//button]>
+11:42:22.431 INFO  pageobjects.Login_Page -
+11:42:23.138 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> xpath: //span[normalize-space()='New Order']]>
+11:42:23.337 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> xpath: //li[normalize-space()='Stock']]>
+11:42:23.455 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> xpath: //*[@id='traderId']]>
+11:42:23.589 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:42:23.674 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <div class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input" tabindex="0" role="button" aria-haspopup="listbox" aria-labelledby="InstrumentLabel instrumentId" id="instrumentId">...</div> is not clickable at point (751, 336). Other element would receive the click: <div role="presentation" class="MuiPopover-root" id="menu-" style="position: fixed; z-index: 1300; inset: 0px;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: 032d06eee92b8af2da18f5e839c0ec4a
+11:42:24.443 INFO  utils.DriverFactory -Getting the etrading login page
+11:42:24.443 INFO  pageobjects.Login_Page -Navigating to login page
+11:42:24.616 INFO  utils.DriverFactory -Entering the username
+11:42:24.642 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> id: username]>
+11:42:24.752 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> id: username]>
+11:42:24.753 INFO  utils.DriverFactory -Entering the password
+11:42:24.775 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> id: password]>
+11:42:24.908 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> id: password]>
+11:42:24.909 INFO  utils.DriverFactory -Clicking on the login button
+11:42:25.014 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> xpath: //div[@id='root']//button]>
+11:42:25.015 INFO  pageobjects.Login_Page -
+11:42:25.649 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> xpath: //span[normalize-space()='New Order']]>
+11:42:25.825 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> xpath: //li[normalize-space()='Equity Option']]>
+11:42:25.945 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> xpath: //*[@id='traderId']]>
+11:42:26.094 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (032d06eee92b8af2da18f5e839c0ec4a)] -> xpath: //li[normalize-space()='Ken Griffin']]>
+11:42:26.188 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <div class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input" tabindex="0" role="button" aria-haspopup="listbox" aria-labelledby="InstrumentLabel instrumentId" id="instrumentId">...</div> is not clickable at point (751, 336). Other element would receive the click: <div role="presentation" class="MuiPopover-root" id="menu-" style="position: fixed; z-index: 1300; inset: 0px;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: 032d06eee92b8af2da18f5e839c0ec4a
+11:42:54.835 INFO  utils.DriverFactory -Getting the etrading login page
+11:42:54.838 INFO  pageobjects.Login_Page -Navigating to login page
+11:42:55.534 INFO  utils.DriverFactory -Entering the username
+11:42:55.565 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: username]>
+11:42:55.688 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: username]>
+11:42:55.689 INFO  utils.DriverFactory -Entering the password
+11:42:55.718 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: password]>
+11:42:55.864 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: password]>
+11:42:55.864 INFO  utils.DriverFactory -Clicking on the login button
+11:42:55.972 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //div[@id='root']//button]>
+11:42:55.974 INFO  pageobjects.Login_Page -
+11:42:56.682 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //span[normalize-space()='New Order']]>
+11:42:56.876 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //li[normalize-space()='Stock']]>
+11:42:56.990 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //*[@id='traderId']]>
+11:42:57.128 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:43:00.238 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //*[@id='instrumentId']]>
+11:43:00.361 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //li[normalize-space()='IBM']]>
+11:43:00.389 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: quantity]>
+11:43:00.542 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: quantity]>
+11:43:00.646 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:43:01.269 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //li[normalize-space()='Buy']]>
+11:43:04.377 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:43:04.485 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //li[normalize-space()='Market']]>
+11:43:04.556 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary" tabindex="0" type="button">...</button> is not clickable at point (1015, 475). Other element would receive the click: <div role="presentation" class="MuiPopover-root" id="menu-" style="position: fixed; z-index: 1300; inset: 0px;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: a9f341a54f123f11a2b0f97c1b710d42
+11:43:05.261 INFO  utils.DriverFactory -Getting the etrading login page
+11:43:05.261 INFO  pageobjects.Login_Page -Navigating to login page
+11:43:05.443 INFO  utils.DriverFactory -Entering the username
+11:43:05.466 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: username]>
+11:43:05.583 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: username]>
+11:43:05.583 INFO  utils.DriverFactory -Entering the password
+11:43:05.606 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: password]>
+11:43:05.735 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: password]>
+11:43:05.736 INFO  utils.DriverFactory -Clicking on the login button
+11:43:05.828 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //div[@id='root']//button]>
+11:43:05.829 INFO  pageobjects.Login_Page -
+11:43:06.438 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //span[normalize-space()='New Order']]>
+11:43:06.629 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //li[normalize-space()='Equity Option']]>
+11:43:06.752 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //*[@id='traderId']]>
+11:43:06.888 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //li[normalize-space()='Ken Griffin']]>
+11:43:10.000 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //*[@id='instrumentId']]>
+11:43:10.103 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> xpath: //li[normalize-space()='MSFT']]>
+11:43:10.127 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: quantity]>
+11:43:10.273 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (a9f341a54f123f11a2b0f97c1b710d42)] -> id: quantity]>
+11:43:10.344 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <div class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input" tabindex="0" role="button" aria-haspopup="listbox" aria-labelledby="buySellLabel">...</div> is not clickable at point (1048, 336). Other element would receive the click: <div role="presentation" class="MuiPopover-root" id="menu-" style="position: fixed; z-index: 1300; inset: 0px;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: a9f341a54f123f11a2b0f97c1b710d42
+11:43:45.773 INFO  utils.DriverFactory -Getting the etrading login page
+11:43:45.776 INFO  pageobjects.Login_Page -Navigating to login page
+11:43:46.493 INFO  utils.DriverFactory -Entering the username
+11:43:46.523 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: username]>
+11:43:46.641 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: username]>
+11:43:46.641 INFO  utils.DriverFactory -Entering the password
+11:43:46.668 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: password]>
+11:43:46.808 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: password]>
+11:43:46.809 INFO  utils.DriverFactory -Clicking on the login button
+11:43:46.907 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //div[@id='root']//button]>
+11:43:46.908 INFO  pageobjects.Login_Page -
+11:43:47.626 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //span[normalize-space()='New Order']]>
+11:43:47.820 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //li[normalize-space()='Stock']]>
+11:43:47.933 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //*[@id='traderId']]>
+11:43:48.070 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:43:51.177 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //*[@id='instrumentId']]>
+11:43:51.287 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //li[normalize-space()='IBM']]>
+11:43:51.315 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: quantity]>
+11:43:51.467 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: quantity]>
+11:43:54.587 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:43:54.703 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //li[normalize-space()='Buy']]>
+11:43:57.822 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:43:57.927 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //li[normalize-space()='Market']]>
+11:43:57.995 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary" tabindex="0" type="button">...</button> is not clickable at point (1015, 475). Other element would receive the click: <div role="presentation" class="MuiPopover-root" id="menu-" style="position: fixed; z-index: 1300; inset: 0px;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: a1989745d8e9f7c0ef0d00e23b4a4177
+11:43:58.689 INFO  utils.DriverFactory -Getting the etrading login page
+11:43:58.689 INFO  pageobjects.Login_Page -Navigating to login page
+11:43:58.876 INFO  utils.DriverFactory -Entering the username
+11:43:58.902 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: username]>
+11:43:59.014 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: username]>
+11:43:59.015 INFO  utils.DriverFactory -Entering the password
+11:43:59.038 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: password]>
+11:43:59.165 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: password]>
+11:43:59.166 INFO  utils.DriverFactory -Clicking on the login button
+11:43:59.253 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //div[@id='root']//button]>
+11:43:59.254 INFO  pageobjects.Login_Page -
+11:43:59.903 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //span[normalize-space()='New Order']]>
+11:44:00.089 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //li[normalize-space()='Equity Option']]>
+11:44:00.211 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //*[@id='traderId']]>
+11:44:00.347 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //li[normalize-space()='Ken Griffin']]>
+11:44:03.451 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //*[@id='instrumentId']]>
+11:44:03.571 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //li[normalize-space()='MSFT']]>
+11:44:03.597 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: quantity]>
+11:44:03.748 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> id: quantity]>
+11:44:06.848 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:44:06.966 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //li[normalize-space()='Sell']]>
+11:44:10.061 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:44:10.172 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a1989745d8e9f7c0ef0d00e23b4a4177)] -> xpath: //li[normalize-space()='Limit']]>
+11:44:10.237 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary" tabindex="0" type="button">...</button> is not clickable at point (1015, 475). Other element would receive the click: <div role="presentation" class="MuiPopover-root" id="menu-" style="position: fixed; z-index: 1300; inset: 0px;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: a1989745d8e9f7c0ef0d00e23b4a4177
+11:44:39.551 INFO  utils.DriverFactory -Getting the etrading login page
+11:44:39.554 INFO  pageobjects.Login_Page -Navigating to login page
+11:44:40.251 INFO  utils.DriverFactory -Entering the username
+11:44:40.282 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> id: username]>
+11:44:40.421 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> id: username]>
+11:44:40.422 INFO  utils.DriverFactory -Entering the password
+11:44:40.451 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> id: password]>
+11:44:40.599 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> id: password]>
+11:44:40.600 INFO  utils.DriverFactory -Clicking on the login button
+11:44:40.703 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //div[@id='root']//button]>
+11:44:40.704 INFO  pageobjects.Login_Page -
+11:44:41.433 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //span[normalize-space()='New Order']]>
+11:44:41.634 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //li[normalize-space()='Stock']]>
+11:44:41.746 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //*[@id='traderId']]>
+11:44:41.881 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:44:44.983 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //*[@id='instrumentId']]>
+11:44:45.097 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //li[normalize-space()='IBM']]>
+11:44:45.124 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> id: quantity]>
+11:44:45.273 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> id: quantity]>
+11:44:48.380 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:44:48.496 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //li[normalize-space()='Buy']]>
+11:44:51.612 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:44:51.720 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //li[normalize-space()='Market']]>
+11:44:54.805 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //button[2]]>
+11:44:55.010 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <div id="column-orderId" role="columnheader" tabindex="0" class="sc-hBEYos kMhNjf rdt_TableCol_Sortable">...</div> is not clickable at point (865, 628). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper" role="none presentation" tabindex="-1" style="opacity: 0; transition: opacity 195ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: e5f79318fdb56b412cd1ee24e7b1fec9
+11:44:55.728 INFO  utils.DriverFactory -Getting the etrading login page
+11:44:55.728 INFO  pageobjects.Login_Page -Navigating to login page
+11:44:55.976 INFO  utils.DriverFactory -Entering the username
+11:44:56.003 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> id: username]>
+11:44:56.118 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> id: username]>
+11:44:56.119 INFO  utils.DriverFactory -Entering the password
+11:44:56.143 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> id: password]>
+11:44:56.270 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> id: password]>
+11:44:56.271 INFO  utils.DriverFactory -Clicking on the login button
+11:44:56.359 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //div[@id='root']//button]>
+11:44:56.360 INFO  pageobjects.Login_Page -
+11:44:56.973 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //span[normalize-space()='New Order']]>
+11:44:57.175 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //li[normalize-space()='Equity Option']]>
+11:44:57.288 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //*[@id='traderId']]>
+11:44:57.423 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (e5f79318fdb56b412cd1ee24e7b1fec9)] -> xpath: //li[normalize-space()='Ken Griffin']]>
+11:45:23.800 INFO  utils.DriverFactory -Getting the etrading login page
+11:45:23.803 INFO  pageobjects.Login_Page -Navigating to login page
+11:45:24.519 INFO  utils.DriverFactory -Entering the username
+11:45:24.560 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: username]>
+11:45:24.689 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: username]>
+11:45:24.690 INFO  utils.DriverFactory -Entering the password
+11:45:24.715 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: password]>
+11:45:24.855 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: password]>
+11:45:24.856 INFO  utils.DriverFactory -Clicking on the login button
+11:45:24.966 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //div[@id='root']//button]>
+11:45:24.969 INFO  pageobjects.Login_Page -
+11:45:25.705 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //span[normalize-space()='New Order']]>
+11:45:25.910 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //li[normalize-space()='Stock']]>
+11:45:26.024 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //*[@id='traderId']]>
+11:45:26.166 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:45:29.293 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //*[@id='instrumentId']]>
+11:45:29.413 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //li[normalize-space()='IBM']]>
+11:45:29.443 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: quantity]>
+11:45:29.590 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: quantity]>
+11:45:32.693 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:45:32.813 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //li[normalize-space()='Buy']]>
+11:45:35.927 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:45:36.032 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //li[normalize-space()='Market']]>
+11:45:39.211 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //button[2]]>
+11:45:42.312 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //*[@id='column-orderId']]>
+11:45:42.397 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //*[@id='column-orderId']]>
+11:45:42.483 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //div[4]//div[1]//div[2]//div[1]//div[1]//div[2]//div[1]//div[1]//input[1]]>
+11:45:42.654 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //div[@id='row-0']//span[contains(text(),'Fill')]]>
+11:45:42.682 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //*[@id='price']]>
+11:45:42.806 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '8976543' to element: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //*[@id='price']]>
+11:45:42.943 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //span[normalize-space()='Submit']]>
+11:45:43.075 ERROR pageobjects.Login_Page -Unable to wait and click on WebElement, Exception: unknown error: Element <div id="column-tradeId" role="columnheader" tabindex="0" class="sc-hBEYos kMhNjf rdt_TableCol_Sortable">...</div> is not clickable at point (93, 628). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper" role="none presentation" tabindex="-1" style="opacity: 0; transition: opacity 195ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-HPHDFIQM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\charm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}
+Session ID: d1ee1b6a96809abc87805dac9334cb74
+11:45:43.752 INFO  utils.DriverFactory -Getting the etrading login page
+11:45:43.752 INFO  pageobjects.Login_Page -Navigating to login page
+11:45:44.000 INFO  utils.DriverFactory -Entering the username
+11:45:44.028 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: username]>
+11:45:44.146 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: username]>
+11:45:44.147 INFO  utils.DriverFactory -Entering the password
+11:45:44.171 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: password]>
+11:45:44.296 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: password]>
+11:45:44.297 INFO  utils.DriverFactory -Clicking on the login button
+11:45:44.387 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //div[@id='root']//button]>
+11:45:44.388 INFO  pageobjects.Login_Page -
+11:45:45.000 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //span[normalize-space()='New Order']]>
+11:45:45.201 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //li[normalize-space()='Equity Option']]>
+11:45:45.316 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //*[@id='traderId']]>
+11:45:45.460 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //li[normalize-space()='Ken Griffin']]>
+11:45:48.566 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //*[@id='instrumentId']]>
+11:45:48.686 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> xpath: //li[normalize-space()='MSFT']]>
+11:45:48.712 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: quantity]>
+11:45:48.862 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (d1ee1b6a96809abc87805dac9334cb74)] -> id: quantity]>
+11:46:22.154 INFO  utils.DriverFactory -Getting the etrading login page
+11:46:22.156 INFO  pageobjects.Login_Page -Navigating to login page
+11:46:22.873 INFO  utils.DriverFactory -Entering the username
+11:46:22.904 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> id: username]>
+11:46:23.039 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> id: username]>
+11:46:23.040 INFO  utils.DriverFactory -Entering the password
+11:46:23.068 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> id: password]>
+11:46:23.218 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> id: password]>
+11:46:23.219 INFO  utils.DriverFactory -Clicking on the login button
+11:46:23.324 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //div[@id='root']//button]>
+11:46:23.325 INFO  pageobjects.Login_Page -
+11:46:24.062 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //span[normalize-space()='New Order']]>
+11:46:24.274 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //li[normalize-space()='Stock']]>
+11:46:24.400 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //*[@id='traderId']]>
+11:46:24.534 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:46:27.662 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //*[@id='instrumentId']]>
+11:46:27.767 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //li[normalize-space()='IBM']]>
+11:46:27.796 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> id: quantity]>
+11:46:27.952 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> id: quantity]>
+11:46:31.054 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:46:31.169 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //li[normalize-space()='Buy']]>
+11:46:34.303 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:46:34.411 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //li[normalize-space()='Market']]>
+11:46:37.686 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //button[2]]>
+11:46:40.791 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //*[@id='column-orderId']]>
+11:46:40.874 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //*[@id='column-orderId']]>
+11:46:40.963 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //div[4]//div[1]//div[2]//div[1]//div[1]//div[2]//div[1]//div[1]//input[1]]>
+11:46:41.148 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //div[@id='row-0']//span[contains(text(),'Fill')]]>
+11:46:41.175 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //*[@id='price']]>
+11:46:41.288 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '8976543' to element: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //*[@id='price']]>
+11:46:41.429 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //span[normalize-space()='Submit']]>
+11:46:44.543 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //*[@id='column-tradeId']]>
+11:46:44.615 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //*[@id='column-tradeId']]>
+11:46:44.696 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //*[@id='row-0']/div[1]/input]>
+11:46:44.782 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //*[@id='column-trader']]>
+11:46:44.862 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> xpath: //*[@id='column-instrumentCode']]>
+11:46:44.998 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (32e8d0cc49b4e4919b362de7add59b55)] -> id: row-0]>
+11:46:50.801 INFO  utils.DriverFactory -Getting the etrading login page
+11:46:50.801 INFO  pageobjects.Login_Page -Navigating to login page
+11:46:51.485 INFO  utils.DriverFactory -Entering the username
+11:46:51.514 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> id: username]>
+11:46:51.638 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> id: username]>
+11:46:51.639 INFO  utils.DriverFactory -Entering the password
+11:46:51.669 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> id: password]>
+11:46:51.799 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> id: password]>
+11:46:51.800 INFO  utils.DriverFactory -Clicking on the login button
+11:46:51.892 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //div[@id='root']//button]>
+11:46:51.893 INFO  pageobjects.Login_Page -
+11:46:52.601 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //span[normalize-space()='New Order']]>
+11:46:52.799 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //li[normalize-space()='Equity Option']]>
+11:46:52.921 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //*[@id='traderId']]>
+11:46:53.056 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //li[normalize-space()='Ken Griffin']]>
+11:46:56.165 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //*[@id='instrumentId']]>
+11:46:56.290 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //li[normalize-space()='MSFT']]>
+11:46:56.317 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> id: quantity]>
+11:46:56.472 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> id: quantity]>
+11:46:59.570 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:46:59.690 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //li[normalize-space()='Sell']]>
+11:47:02.805 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:47:02.917 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //li[normalize-space()='Limit']]>
+11:47:06.097 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //button[2]]>
+11:47:09.199 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //*[@id='column-orderId']]>
+11:47:09.286 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //*[@id='column-orderId']]>
+11:47:09.377 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //div[4]//div[1]//div[2]//div[1]//div[1]//div[2]//div[1]//div[1]//input[1]]>
+11:47:09.559 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //div[@id='row-0']//span[contains(text(),'Fill')]]>
+11:47:09.585 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //*[@id='price']]>
+11:47:09.694 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '8976543' to element: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //*[@id='price']]>
+11:47:09.833 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //span[normalize-space()='Submit']]>
+11:47:12.917 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //*[@id='column-tradeId']]>
+11:47:12.995 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //*[@id='column-tradeId']]>
+11:47:13.075 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //*[@id='row-0']/div[1]/input]>
+11:47:13.155 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //*[@id='column-trader']]>
+11:47:13.238 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> xpath: //*[@id='column-instrumentCode']]>
+11:47:13.385 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (a5ccc279cf304d9d409039c0276a16b7)] -> id: row-0]>
+11:48:11.490 INFO  utils.DriverFactory -Getting the etrading login page
+11:48:11.493 INFO  pageobjects.Login_Page -Navigating to login page
+11:48:12.208 INFO  utils.DriverFactory -Entering the username
+11:48:12.241 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> id: username]>
+11:48:12.370 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> id: username]>
+11:48:12.371 INFO  utils.DriverFactory -Entering the password
+11:48:12.399 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> id: password]>
+11:48:12.551 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> id: password]>
+11:48:12.551 INFO  utils.DriverFactory -Clicking on the login button
+11:48:12.656 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //div[@id='root']//button]>
+11:48:12.657 INFO  pageobjects.Login_Page -
+11:48:13.415 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //span[normalize-space()='New Order']]>
+11:48:13.630 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //li[normalize-space()='Stock']]>
+11:48:13.750 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //*[@id='traderId']]>
+11:48:13.886 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:48:15.990 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //*[@id='instrumentId']]>
+11:48:16.639 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //li[normalize-space()='IBM']]>
+11:48:16.665 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> id: quantity]>
+11:48:16.815 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> id: quantity]>
+11:48:18.918 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:48:19.030 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //li[normalize-space()='Buy']]>
+11:48:21.137 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:48:21.243 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //li[normalize-space()='Market']]>
+11:48:23.487 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //button[2]]>
+11:48:25.580 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //*[@id='column-orderId']]>
+11:48:25.669 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //*[@id='column-orderId']]>
+11:48:25.760 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //div[4]//div[1]//div[2]//div[1]//div[1]//div[2]//div[1]//div[1]//input[1]]>
+11:48:25.952 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //div[@id='row-0']//span[contains(text(),'Fill')]]>
+11:48:25.981 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //*[@id='price']]>
+11:48:26.096 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '8976543' to element: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //*[@id='price']]>
+11:48:26.247 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //span[normalize-space()='Submit']]>
+11:48:28.335 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //*[@id='column-tradeId']]>
+11:48:28.409 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //*[@id='column-tradeId']]>
+11:48:30.498 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //*[@id='row-0']/div[1]/input]>
+11:48:30.588 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //*[@id='column-trader']]>
+11:48:30.663 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> xpath: //*[@id='column-instrumentCode']]>
+11:48:30.802 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (0a75eb6de0c429de08a8a46e639b9d01)] -> id: row-0]>
+11:49:18.598 INFO  utils.DriverFactory -Getting the etrading login page
+11:49:18.601 INFO  pageobjects.Login_Page -Navigating to login page
+11:49:19.296 INFO  utils.DriverFactory -Entering the username
+11:49:19.327 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> id: username]>
+11:49:19.448 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> id: username]>
+11:49:19.449 INFO  utils.DriverFactory -Entering the password
+11:49:19.480 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> id: password]>
+11:49:19.624 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> id: password]>
+11:49:19.624 INFO  utils.DriverFactory -Clicking on the login button
+11:49:19.727 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //div[@id='root']//button]>
+11:49:19.728 INFO  pageobjects.Login_Page -
+11:49:20.444 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //span[normalize-space()='New Order']]>
+11:49:20.647 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //li[normalize-space()='Stock']]>
+11:49:20.770 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //*[@id='traderId']]>
+11:49:20.917 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:49:23.021 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //*[@id='instrumentId']]>
+11:49:23.142 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //li[normalize-space()='IBM']]>
+11:49:23.169 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> id: quantity]>
+11:49:23.320 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> id: quantity]>
+11:49:25.426 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:49:25.539 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //li[normalize-space()='Buy']]>
+11:49:27.657 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:49:27.764 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //li[normalize-space()='Market']]>
+11:49:30.027 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //button[2]]>
+11:49:32.143 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //*[@id='column-orderId']]>
+11:49:32.235 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //*[@id='column-orderId']]>
+11:49:32.328 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //div[4]//div[1]//div[2]//div[1]//div[1]//div[2]//div[1]//div[1]//input[1]]>
+11:49:32.527 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //div[@id='row-0']//span[contains(text(),'Fill')]]>
+11:49:32.555 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //*[@id='price']]>
+11:49:32.669 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '8976543' to element: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //*[@id='price']]>
+11:49:32.884 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //span[normalize-space()='Submit']]>
+11:49:34.984 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //*[@id='column-tradeId']]>
+11:49:35.060 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //*[@id='column-tradeId']]>
+11:49:37.147 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //*[@id='row-0']/div[1]/input]>
+11:49:39.240 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //*[@id='column-trader']]>
+11:49:39.321 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> xpath: //*[@id='column-instrumentCode']]>
+11:49:39.478 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (dd1fc5933156102e28be271848c181c3)] -> id: row-0]>
+11:50:15.321 INFO  utils.DriverFactory -Getting the etrading login page
+11:50:15.323 INFO  pageobjects.Login_Page -Navigating to login page
+11:50:16.040 INFO  utils.DriverFactory -Entering the username
+11:50:16.071 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> id: username]>
+11:50:16.189 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> id: username]>
+11:50:16.190 INFO  utils.DriverFactory -Entering the password
+11:50:16.220 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> id: password]>
+11:50:16.362 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> id: password]>
+11:50:16.363 INFO  utils.DriverFactory -Clicking on the login button
+11:50:16.468 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //div[@id='root']//button]>
+11:50:16.470 INFO  pageobjects.Login_Page -
+11:50:17.211 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //span[normalize-space()='New Order']]>
+11:50:17.430 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //li[normalize-space()='Stock']]>
+11:50:17.546 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //*[@id='traderId']]>
+11:50:17.692 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:50:19.801 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //*[@id='instrumentId']]>
+11:50:19.916 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //li[normalize-space()='IBM']]>
+11:50:19.943 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> id: quantity]>
+11:50:20.104 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> id: quantity]>
+11:50:22.216 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:50:22.323 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //li[normalize-space()='Buy']]>
+11:50:24.431 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:50:24.539 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //li[normalize-space()='Market']]>
+11:50:26.791 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //button[2]]>
+11:50:28.895 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //*[@id='column-orderId']]>
+11:50:28.990 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //*[@id='column-orderId']]>
+11:50:29.088 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //div[4]//div[1]//div[2]//div[1]//div[1]//div[2]//div[1]//div[1]//input[1]]>
+11:50:29.293 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //div[@id='row-0']//span[contains(text(),'Fill')]]>
+11:50:29.320 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //*[@id='price']]>
+11:50:29.434 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '8976543' to element: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //*[@id='price']]>
+11:50:29.602 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //span[normalize-space()='Submit']]>
+11:50:31.702 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //*[@id='column-tradeId']]>
+11:50:31.779 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //*[@id='column-tradeId']]>
+11:50:33.863 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //*[@id='row-0']/div[1]/input]>
+11:50:35.962 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //*[@id='column-trader']]>
+11:50:38.051 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> xpath: //*[@id='column-instrumentCode']]>
+11:50:38.213 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (85f1f082cfe38e156e519f4e8ab86fd0)] -> id: row-0]>
+11:51:04.940 INFO  utils.DriverFactory -Getting the etrading login page
+11:51:04.943 INFO  pageobjects.Login_Page -Navigating to login page
+11:51:05.667 INFO  utils.DriverFactory -Entering the username
+11:51:05.698 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> id: username]>
+11:51:05.820 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'sarith' to element: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> id: username]>
+11:51:05.821 INFO  utils.DriverFactory -Entering the password
+11:51:05.848 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> id: password]>
+11:51:05.992 INFO  pageobjects.Login_Page -Successfully Sent the following keys: 'password' to element: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> id: password]>
+11:51:05.993 INFO  utils.DriverFactory -Clicking on the login button
+11:51:06.098 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //div[@id='root']//button]>
+11:51:06.100 INFO  pageobjects.Login_Page -
+11:51:06.831 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //span[normalize-space()='New Order']]>
+11:51:07.047 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //li[normalize-space()='Stock']]>
+11:51:07.172 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //*[@id='traderId']]>
+11:51:07.307 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //li[normalize-space()='John Overdeck']]>
+11:51:09.422 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //*[@id='instrumentId']]>
+11:51:09.543 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //li[normalize-space()='IBM']]>
+11:51:09.570 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> id: quantity]>
+11:51:09.718 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '7078' to element: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> id: quantity]>
+11:51:11.828 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //div[@role='presentation']//div[4]//div[1]//div[1]//div[1]]>
+11:51:11.935 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //li[normalize-space()='Buy']]>
+11:51:14.044 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //div[5]//div[1]//div[1]//div[1]]>
+11:51:14.151 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //li[normalize-space()='Market']]>
+11:51:16.421 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //button[2]]>
+11:51:18.524 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //*[@id='column-orderId']]>
+11:51:18.624 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //*[@id='column-orderId']]>
+11:51:18.716 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //div[4]//div[1]//div[2]//div[1]//div[1]//div[2]//div[1]//div[1]//input[1]]>
+11:51:18.901 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //div[@id='row-0']//span[contains(text(),'Fill')]]>
+11:51:18.928 INFO  pageobjects.Login_Page -WebElement is visible using locator: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //*[@id='price']]>
+11:51:19.037 INFO  pageobjects.Login_Page -Successfully Sent the following keys: '8976543' to element: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //*[@id='price']]>
+11:51:19.192 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //span[normalize-space()='Submit']]>
+11:51:21.277 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //*[@id='column-tradeId']]>
+11:51:21.355 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //*[@id='column-tradeId']]>
+11:51:23.464 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //*[@id='row-0']/div[1]/input]>
+11:51:25.562 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //*[@id='column-trader']]>
+11:51:27.649 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> xpath: //*[@id='column-instrumentCode']]>
+11:51:29.842 INFO  pageobjects.Login_Page -Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (add5476bb685a4041f105ab98b4557ef)] -> id: row-0]>
+11:51:53.187 INFO  utils.DriverFactory -Getting the etrading login page
+11:51:53.190 INFO  pageobjects.Login_Page -Navigating to login page
+11:51:53.934 INFO  utils.DriverFactory -Entering the username

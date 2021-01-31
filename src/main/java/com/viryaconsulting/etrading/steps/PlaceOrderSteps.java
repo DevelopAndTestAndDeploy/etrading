@@ -17,7 +17,8 @@ public class PlaceOrderSteps extends DriverFactory {
 
     @When("^The user is on the dashboard page of the etrading website$")
     public void the_user_is_on_the_dashboard_page_of_the_etrading_website() throws Throwable {
-        System.out.println("User is on the dashboard page of the etrading website.....");
+
+                System.out.println("User is on the dashboard page of the etrading website.....");
     }
 
     @And("^The user clicks on the newOrder button$")
